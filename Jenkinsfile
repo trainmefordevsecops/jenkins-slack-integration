@@ -16,7 +16,6 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh "exit 1"
             }
         }
     } 
